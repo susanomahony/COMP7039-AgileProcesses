@@ -14,7 +14,7 @@ public class HelloWorld
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Hi There!");
+		System.out.println("Bye There!");
 	}
 >>>>>>> a395470c5751e58205dccdc2a951375b2b1fe57c
 }
