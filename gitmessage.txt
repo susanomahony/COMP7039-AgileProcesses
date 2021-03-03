@@ -1,6 +1,5 @@
 ## Subject line ##
-# <type>: (If applied, this commit will...) <subject> (Max 50 char)
-# |<----  Using a Maximum Of 50 Characters  ---->|
+# <type>: (If applied, this commit will...) <subject>
 
 # Type can be 
 #    feat     (new feature)
@@ -12,6 +11,7 @@
 #    chore    (updating grunt tasks etc; no production code change)
 
 # Remember
+#   - Use a Maximum Of 50 Characters
 #   - Blank line between title and body
 #   - Capitalize the subject line
 #   - Use the imperative mood in the subject line
@@ -20,28 +20,27 @@
 #   - Lines starting with '#' will be ignored
 
 ## Body ##
-# Explain why this change is being made
-# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
-
 # Remember:
 #   - Use the body to explain what and why vs. how
 #   - Can use multiple lines with "-" for bullet points in body
 #   - Use as many lines as you like
+#   - Try To Limit Each Line to a Maximum Of 72 Characters
 
 # See links to relevant web pages, issue trackers, blog articles, etc.
 # See: [Example Page](https://example.com/)
-# Example: Github issue #23
 
 # List all co-authors, so version control systems can connect teams.
 # Co-authored-by: Name <name@example.com>
 
-# Why is this change happening, e.g. goals, use cases, stories, etc.?
-Why:
-
-# How is this change happening, e.g. implementations, algorithms, etc.?
-How:
+# Explain why and how this change is happening: goals etc.?
+#Why:
+#How:
 
 # Tags suitable for searching, such as hashtags, keywords, etc.
-Tags:
+#Tags:
+
+##Footer##
+#   - Associated issues, PRs, etc.
+#   - Ex: Resolves Issue #207, see PR #15, etc.
 
 # --- COMMIT END ---
